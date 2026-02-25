@@ -11064,13 +11064,10 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: end;
-    margin-top: 20px;
     gap: 8px;
-    margin: -10px 0 -30px
 }
 
 .footer-default .footer-cta-wrap .footer-cta-thumb .img1, .solicitation .footer-cta-thumb .img1{
-    margin-bottom: -45px;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none
@@ -19791,7 +19788,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .btn-wrap.style2 {
-    gap: 20px 20px
+    gap: 15px
 }
 
 .info-card {
