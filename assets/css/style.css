@@ -8504,13 +8504,6 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
     margin-bottom: 37px
 }
 
-.th-widget-about .about-text {
-    margin-bottom: 34px;
-    margin-top: -0.3em;
-    line-height: 26px;
-    color: var(--white-color)
-}
-
 .th-widget-about .th-social a {
     --icon-size: 50px;
     background: #29282b;
@@ -10839,7 +10832,7 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
 }
 
 .copyright-wrap .copyright-text {
-    color: var(--body-color);
+    color: #29282B;
     font-size: 16px
 }
 
@@ -11174,7 +11167,7 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
 
 .footer-layout1 {
     --body-color: #A1A1A1;
-    background: #1f1f1f;
+    background: #F2EAEA;
     margin-top: 105px;
     padding-bottom: 50px
 }
@@ -26215,6 +26208,9 @@ span.select2-selection.select2-selection--single:focus {
     padding-top: 24px;
     padding-bottom: 24px
 }
+.header-layout1.style-3 .container .header-logo img{
+    max-width: 75px;
+}
 
 .header-layout1.style-3 .icon-btn.style4 {
     background: var(--title-color);
@@ -29941,7 +29937,28 @@ span.select2-selection.select2-selection--single:focus {
 .price-card.style-3 .th-btn {
     background: var(--white-color)
 }
+.contact-item {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
 
+.contact-label {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.icon .fa-envelope:before, .icon .fa-whatsapp:before{
+    color: var(--theme-color);
+    font-size: 16px;
+}
+.contact-value {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-color);
+}
 .contact-2-img-wrap {
     margin-left: -258px;
     margin-top: -20px;
