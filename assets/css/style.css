@@ -2974,7 +2974,8 @@ textarea.is-invalid {
 .preloader .th-btn {
     padding: 15px 20px;
     border-radius: 0;
-    font-size: 14px
+    font-size: 14px;
+    background-color: #613A30 !important;
 }
 
 .preloader-inner {
@@ -3001,7 +3002,7 @@ textarea.is-invalid {
     color: var(--white-color);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    text-shadow: 0 0 3px var(--theme-color),0 0 3px var(--theme-color),0 0 3px var(--theme-color);
+    text-shadow: 0 0 3px #613A30,0 0 3px #613A30,0 0 3px #613A30;
     position: relative;
     line-height: normal;
     letter-spacing: .02em
@@ -3011,7 +3012,7 @@ textarea.is-invalid {
     position: absolute;
     left: 0;
     top: 0;
-    color: var(--theme-color);
+    color: #613A30;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -8497,7 +8498,7 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
 }
 
 .th-widget-about {
-    max-width: 340px
+    /* max-width: 340px */
 }
 
 .th-widget-about .about-logo {
@@ -8605,13 +8606,18 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
     border-radius: 0px
 }
 
-.th-newsletter-widget.footer-widget .box-title {
-    color: var(--white-color);
+.th-newsletter-widget.footer-widget .box-title, .th-newsletter-widget.footer-widget p {
+    color: #29282B;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 0px
 }
-
+.th-newsletter-widget.footer-widget p{
+    font-size: 16px;
+}
+.th-newsletter-widget.footer-widget .box-title .fa-location:before{
+    color: var(--theme-color);
+}
 .th-newsletter-widget.footer-widget .newsletter-form {
     margin-top: 22px
 }
@@ -11169,7 +11175,7 @@ ul.widget_rss,ul.wp-block-rss,ol.widget_rss,ol.wp-block-rss {
     --body-color: #A1A1A1;
     background: #F2EAEA;
     margin-top: 105px;
-    padding-bottom: 50px
+    padding-bottom: 0px;
 }
 
 .footer-layout1 .footer-1-top-shape {
@@ -26213,14 +26219,16 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .header-layout1.style-3 .icon-btn.style4 {
-    background: var(--title-color);
-    color: var(--white-color)
+    background: var(--white-color);
+    color: var(--theme-color)
 }
 
 .header-layout1.style-3 .icon-btn.style4:hover {
     background: var(--theme-color)
 }
-
+.header-layout1.style-3 .icon-btn.style4:hover .fa-bars:before{
+    color: #FFF;
+}
 @media(max-width: 1199px) {
     .header-layout1.style-3 .container .header-logo {
         padding-top:20px;
