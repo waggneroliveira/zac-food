@@ -27569,7 +27569,8 @@ span.select2-selection.select2-selection--single:focus {
     line-height: 1.142
 }
 
-.hero-8-content-wrap .hero-style8 .hero-title span, .about-wrap1 .sec-title.text-anim2 span{
+.hero-8-content-wrap .hero-style8 .hero-title span, .about-wrap1 .sec-title.text-anim2 span,
+.service-sec-6 .sec-title.text-anim2 span, .bg-why-sec-1 .sec-title.text-anim2 span, #contact-sec .sec-title.text-anim2 span{
     color: var(--theme-color)
 }
 
