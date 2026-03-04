@@ -29,7 +29,7 @@
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1320px;
     --container-gutters: 24px;
-    --section-space: 50px;
+    --section-space: 80px;
     --section-space-mobile: 35px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s;
@@ -1446,7 +1446,7 @@ label {
 }
 
 .shape-mockup img {
-    max-width: 165px !important
+    max-width: 90px !important
 }
 
 .shape-mockup.why {
