@@ -29,8 +29,8 @@
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1320px;
     --container-gutters: 24px;
-    --section-space: 120px;
-    --section-space-mobile: 80px;
+    --section-space: 50px;
+    --section-space-mobile: 35px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s;
     --th-body-background: #ffffff
@@ -3034,7 +3034,7 @@ label {
 
 @media (max-width: 575px) {
     .why-img-box1 {
-        bottom: -97px;
+        bottom: -51px;
         margin-top: -17px
     }
 }
