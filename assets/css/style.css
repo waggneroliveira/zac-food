@@ -3019,7 +3019,7 @@ label {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -150px;
+    bottom: -80px;
     text-align: center;
     z-index: 3
 }
@@ -3027,14 +3027,14 @@ label {
 @media (max-width: 991px) {
     .why-img-box1 {
         position: relative;
-        bottom: -110px;
+        bottom: -65px;
         margin-top: -30px
     }
 }
 
 @media (max-width: 575px) {
     .why-img-box1 {
-        bottom: -51px;
+        bottom: -60px;
         margin-top: -17px
     }
 }
