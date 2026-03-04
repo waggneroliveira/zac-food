@@ -29,7 +29,7 @@
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1320px;
     --container-gutters: 24px;
-    --section-space: 80px;
+    --section-space: 50px;
     --section-space-mobile: 35px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s;
@@ -1446,7 +1446,7 @@ label {
 }
 
 .shape-mockup img {
-    max-width: 90px !important
+    max-width: 165px;
 }
 
 .shape-mockup.why {
@@ -2092,7 +2092,7 @@ label {
 }
 
 .header-layout1.style-3 .container .header-logo img {
-    max-width: 75px;
+    max-width: 110px;
 }
 
 .header-layout1.style-3 .icon-btn.style4 {
@@ -3777,12 +3777,17 @@ label {
 .mfp-content .container {
     position: relative
 }
-
+.rounded-10{
+    border-radius: 20px;
+}
 .mfp-content .product-big-img {
     margin-top: 12px;
     margin-bottom: 12px
 }
-
+.mfp-content .product-big-img img{
+    border-radius: 20px;
+    overflow: hidden;
+}
 .mfp-fade.mfp-bg {
     opacity: 0;
     -webkit-transition: all .15s ease-out;
