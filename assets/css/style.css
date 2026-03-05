@@ -36,6 +36,53 @@
     --th-body-background: #ffffff
 }
 
+.whatsapp-float{
+    position: fixed;
+    top: 45%;
+    right: 0;
+    transform: translateY(-30%);
+    width: 45px;
+    height: 45px;
+    border-radius: 5px 0 0 5px;
+    background: #25D366;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+    z-index: 9999;
+    transition: transform .15s ease, filter .15s ease, box-shadow .15s ease;
+}
+.whatsapp-float svg{
+    width: 28px;
+    height: 28px;
+    fill: #fff;
+    display: block;
+}
+.whatsapp-float:hover{
+    transform: translateY(-30%) scale(1.05);
+    filter: brightness(1.05);
+    box-shadow: 0 14px 32px rgba(0,0,0,.2);
+}
+/* Ajuste em telas menores */
+@media (max-width: 768px){
+    .whatsapp-float{
+    right: 12px;
+    width: 52px;
+    height: 52px;
+    }
+    .whatsapp-float svg{ width: 35px; height: 35px; }
+}
+/* Não mostrar na impressão */
+@media print{
+    .whatsapp-float{ display: none; }
+}
+/* Respeita usuários com redução de movimento */
+@media (prefers-reduced-motion: reduce){
+    .whatsapp-float{ transition: none; }
+    .whatsapp-float:hover{ transform: translateY(-50%); }
+}
+
 .bg-why-sec-1, .testi-area-1.space {
     background-color: #F2EAEA !important;
 }
