@@ -204,7 +204,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a, span a {
     .h1, h1 { font-size: 34px; line-height: 1.35 }
     .h2, h2 { font-size: 28px !important }
     .th-btn.th-btn-icon2 {
-        padding: 20px 30px; 
+        padding: 20px 30px !important; 
     }
 }
 
