@@ -1459,7 +1459,7 @@ label {
 
 .shape-mockup.why {
     pointer-events: auto !important;
-    z-index: 1 !important;
+    z-index: 3 !important;
 }
 
 .shape-mockup.z-index-3 {
@@ -3107,7 +3107,12 @@ label {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-    top: 178px
+    top: 178px;
+    z-index: 1;
+}
+.shape-mockup-wrap {
+    z-index: 2;
+    position: relative;
 }
 .btn-wrap {
     display: -webkit-box;
@@ -3957,6 +3962,11 @@ label {
     border: 1px solid rgba(217,217,217,0.1490196078);
     border-radius: 15px;
     background: rgba(0,0,0,0)
+}
+
+.bt-one.th-btn.th-btn-icon2 i:after {
+    right: 53px;
+    top: 16px;
 }
 
 @media (max-width: 1299px) {
