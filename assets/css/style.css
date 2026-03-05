@@ -205,6 +205,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a, span a {
     .h2, h2 { font-size: 28px !important }
     .th-btn.th-btn-icon2 {
         padding: 20px 30px !important; 
+        font-size: 14px !important;
+    }
+    .th-btn.th-btn-icon2 i:after{
+        right: 51px !important;
+        top: 19px !important; 
     }
 }
 
